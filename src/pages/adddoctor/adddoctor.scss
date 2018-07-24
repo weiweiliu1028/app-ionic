@@ -1,0 +1,32 @@
+page-adddoctor {
+  .bgc {
+    background-color: #429FE3;
+  }
+  .bgc p {
+    color: #fff;
+  }
+  .bar-button-default-ios,
+  .bar-button-default.bar-button-ios-default,
+  .bar-button-clear-ios-default {
+    color: #eeeeee;
+  }
+  .content {
+    height: 100%;
+    background-color: #EEEEEE;
+  }
+  .home-adddoctor-p {
+    margin-left: 10px;
+    color: #737373;
+    font-family: "微软雅黑";
+    margin-top: -5px;
+  }
+  .home-adddoctor-btn button {
+    width: 372px;
+    color: #429FE3;
+    background-color: #fff;
+    margin-top: 10px;
+  }
+  .item-ios.item-block .item-inner {
+    border-bottom: none;
+  }
+}

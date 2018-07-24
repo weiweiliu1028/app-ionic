@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="bgc">
+      <p>账号管理</p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="home-user">
+    <div class="home-user-touxiang">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-8>
+            <div class="home-user-wenzi">
+              <p>头像</p>
+            </div>
+          </ion-col>
+          <ion-col col-3>
+            <div class="home-user-img">
+              <img src="assets/imgs/touxiang.png" alt="">
+            </div>
+          </ion-col>
+          <ion-col col-1>
+            <div>
+              <ion-icon name="arrow-forward" style="margin-top: 27px;font-size: 24px;color: #737373;margin-left: 6px;"></ion-icon>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+    <div class="home-user-iphone">
+      <ion-item>
+        <ion-label>登录手机号</ion-label>
+        <ion-select [(ngModel)]="gender" cancelText="取消" okText="确定">
+          <ion-option value="f">150****2356</ion-option>
+          <ion-option value="m">132****2313</ion-option>
+        </ion-select>
+      </ion-item>
+      <p style="border: 0.55px solid #ccc;margin: 0px;padding: 0px;"></p>
+      <ion-item>
+          <ion-label>修改密码</ion-label>
+          <ion-select [(ngModel)]="gender">
+            <!-- <ion-option value="f">150****2356</ion-option>
+            <ion-option value="m">132****2313</ion-option> -->
+          </ion-select>
+        </ion-item>
+        <p style="border: 0.55px solid #ccc;margin: 0px;padding: 0px;"></p>
+      <ion-item>
+        <ion-label>实名验证</ion-label>
+        <ion-select [(ngModel)]="gender111" cancelText="取消" okText="确定">
+          <ion-option value="f">已验证</ion-option>
+          <ion-option value="m">验证不通过</ion-option>
+        </ion-select>
+      </ion-item>
+    </div>
+    <div class="home-user-btn">
+      <button ion-button full>退出登录</button>
+    </div>
+  </div>
+</ion-content>

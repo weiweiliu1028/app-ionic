@@ -1,0 +1,37 @@
+page-user {
+  .bgc {
+    background-color: #429FE3;
+  }
+  .bgc p {
+    color: #fff;
+  }
+  .bar-button-default-ios,
+  .bar-button-default.bar-button-ios-default,
+  .bar-button-clear-ios-default {
+    color: #eeeeee;
+  }
+  .content {
+    height: 100%;
+    background-color: #eeeeee;
+  }
+  .home-user-touxiang {
+    height: 100px;
+    line-height: 40px;
+    background-color: #fff;
+    margin-top: 10px;
+  }
+  .home-user-wenzi {
+    font-size: 16px;
+  }
+  .home-user-iphone {
+    margin-top: 10px;
+  }
+  .item-ios.item-block .item-inner {
+    border: none;
+  }
+  .home-user-btn button {
+    background-color: #fff;
+    color: #429FE3;
+    margin-top: 10px;
+  }
+}

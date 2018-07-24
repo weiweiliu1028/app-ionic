@@ -1,0 +1,47 @@
+page-registered {
+  .bgc {
+    // height: 100%;
+    background-color: #429FE3;
+  }
+  .content {
+    height: 100%;
+    background-color: #EEEEEE;
+  }
+  .bgc p {
+    color: #fff;
+  }
+  .bar-button-default-ios,
+  .bar-button-default.bar-button-ios-default,
+  .bar-button-clear-ios-default {
+    color: #eeeeee;
+  }
+  .item-ios {
+    padding: 0px
+  }
+  .item-ios.item-block .item-inner {
+    border: none;
+  }
+  .label {
+    padding-left: 15px;
+  }
+  .home-registered-select {
+    background-color: #fff;
+    margin-top: 10px;
+  }
+  .home-registered-list{
+      height: 88px;
+      background-color: #fff;
+      margin: 10px 0px;
+  }
+  .home-registered-wenzi{
+      margin-top: -15px;
+      font-size: 18px;
+      color: #343434;
+      
+  }
+  .home-registered-wenzi1{
+    margin-top: -55px;
+    font-size: 16px;
+    color: #737373
+  }
+}

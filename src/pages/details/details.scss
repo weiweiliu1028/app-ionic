@@ -1,0 +1,55 @@
+page-details {
+  .bgc {
+    background-color: #429FE3;
+  }
+  .bgc p {
+    color: #fff;
+  }
+  .bar-button-default-ios,
+  .bar-button-default.bar-button-ios-default,
+  .bar-button-clear-ios-default {
+    color: #eeeeee;
+  }
+  .content {
+    height: 100%;
+    background-color: #eeeeee;
+  }
+  .home-details-img {
+    height: 90px;
+    background: url(../assets/imgs/patient.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px;
+  }
+  .home-details-wenzi {
+    font-size: 20px;
+    color: #fff;
+    font-family: "微软雅黑";
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  .home-details-senced {
+    color: #fff;
+    font-size: 16px;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  .item-ios.item-block .item-inner {
+    border: none;
+  }
+  .home-details-input {
+    height: 50px;
+    line-height: 5px;
+    background-color: #fff;
+    border-bottom: 0.55px solid #ccc;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .home-details-input1 {
+    height: 50px;
+    line-height: 5px;
+    background-color: #fff;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+}

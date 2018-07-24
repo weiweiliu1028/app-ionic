@@ -1,0 +1,59 @@
+page-personal {
+  .toolbar .toolbar-background {
+    background: none;
+    border-bottom: none;
+  }
+  .bgc{
+    background-color: #429FE3;
+  }
+  .bgc p {
+    color: #fff;
+  }
+  .personal-content {
+    height: 100%;
+    background-color: #EEEEEE;
+    padding-top: 10px
+  }
+  .personal-content-portrait {
+    height: 100px;
+    background-color: #fff;
+  }
+  .personal-content-portrait-img {
+    width: 50px;
+    height: 50px;
+    line-height: 130px;
+    margin-left: 10px;
+  }
+  .personal-content-wenzi .first {
+    line-height: 20px;
+    margin-left: 20px;
+  }
+  .first1 {
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+  .senced {
+    line-height: 20px;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+  .personal-content-icon {
+    font-size: 30px;
+    margin-top: 23px;
+    color: #D2D2D2;
+    margin-left: -10px;
+  }
+  .personal-list {
+    margin-top: 10px;
+  }
+  .list-ios>.item-block:last-child,
+  .list-ios>.item-wrapper:last-child .item-block {
+    border-bottom: none;
+  }
+  .list-ios > .item-block:first-child{
+    border-top: none;
+  }
+  .personal-list1{
+    margin-top: -20px;
+  }
+}
